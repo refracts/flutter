@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -e /Library/Application\ Support/Flutter ]; then
+    echo "Flutter has detected that a theme has already installed. To prevent over-writing this theme, Flutter will not make its directory or copy icons to it."
+
+else
+    echo "⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️"
+    echo "Flutter directory not detected! Making directory and copying icons to it!"
+    echo "⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️"
+    cp -r /Library/Application\ Support/FlutterBAK/ /Library/Application\ Support/Flutter
+
+fi

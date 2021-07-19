@@ -1,0 +1,9 @@
+Package: ipwl.tweak.flutter
+Name: Flutter
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Flutter is a tool to help users theme the native Control Center.
+Maintainer: i_pwl
+Author: i_pwl
+Section: Tweaks
